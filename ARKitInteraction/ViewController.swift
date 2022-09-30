@@ -154,7 +154,7 @@ class ViewController: UIViewController {
     
     func displayErrorMessage(title: String, message: String) {
         // Blur the background.
-        blurView.isHidden = false
+        blurView.isHidden = true
         
         // Present an alert informing about the error that has occurred.
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)

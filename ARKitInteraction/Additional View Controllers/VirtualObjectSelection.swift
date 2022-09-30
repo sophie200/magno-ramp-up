@@ -154,7 +154,7 @@ class VirtualObjectSelectionViewController: UITableViewController {
         guard cellIsEnabled else { return }
 
         let cell = tableView.cellForRow(at: indexPath)
-        cell?.backgroundColor = UIColor.lightGray.withAlphaComponent(0.5)
+        cell?.backgroundColor = UIColor.blue.withAlphaComponent(0.5)
     }
     
     override func tableView(_ tableView: UITableView, didUnhighlightRowAt indexPath: IndexPath) {
