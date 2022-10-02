@@ -6,8 +6,8 @@
           "__content" : [
             {
               "arAnchorSpecification" : {
-                "name" : "object",
-                "url" : "default"
+                "alignment" : "horizontal",
+                "name" : "surface"
               },
               "behaviors" : [
 
@@ -17,18 +17,18 @@
                 -9.8000001907348633,
                 0
               ],
-              "identifier" : "1B652DC7-A4B2-4B12-A338-A302A910EB9C",
+              "identifier" : "E4A966CE-2C70-41FA-9C3A-DFF6E6D20EC4",
               "material" : "concrete",
               "overrides" : {
                 "children" : {
-                  "F387241F-7427-443A-9B5B-24BBDF32B77D" : {
+                  "15A5990F-D4B4-4309-907B-803D2B7FBAA2" : {
                     "overrides" : {
                       "arguments" : [
                         [
                           "item",
                           {
                             "typeName" : "String",
-                            "value" : "Bar Stool Round"
+                            "value" : "Diner Chair"
                           }
                         ],
                         [
@@ -48,7 +48,7 @@
                                 "RuntimeIdentifier",
                                 {
                                   "typeName" : "UUID",
-                                  "value" : "D08EE78D-339C-4781-94A6-FDD22378064D"
+                                  "value" : "22AEFB53-05DE-4186-A4F1-9CF7282390B7"
                                 }
                               ]
                             ]
@@ -56,7 +56,7 @@
                         }
                       },
                       "factory" : {
-                        "identifier" : "com.apple.rc.af.BarStoolRound.593e3727-1b06-416c-a7f1-5efd51c9f504",
+                        "identifier" : "com.apple.rc.af.DinerChair.8a9d76a1-fb2f-40e2-9a14-803158db5175",
                         "version" : "1.0"
                       },
                       "runtimeAttributes" : [
@@ -64,7 +64,7 @@
                           "RuntimeIdentifier",
                           {
                             "typeName" : "UUID",
-                            "value" : "5B37FDC0-E96C-4213-915E-359B08884E24"
+                            "value" : "60FF9A4B-2E92-490C-A064-51C21DF6BADE"
                           }
                         ]
                       ]
@@ -83,8 +83,8 @@
                         0,
                         1,
                         0,
-                        0.018307819962501526,
-                        1.9371509552001953e-05,
+                        0,
+                        1.1920928955078125e-07,
                         0,
                         1
                       ]
@@ -108,19 +108,19 @@
                 "cameraTransform" : [
                   1,
                   0,
-                  -0,
-                  0,
-                  -0,
-                  0.88478463888168335,
-                  -0.46600010991096497,
                   0,
                   0,
-                  0.46600010991096497,
-                  0.88478463888168335,
+                  0,
+                  0.87799912691116333,
+                  -0.47866222262382507,
                   0,
                   0,
-                  0.79388874769210815,
-                  1.3750543594360352,
+                  0.47866222262382507,
+                  0.87799912691116333,
+                  0,
+                  0.3556441068649292,
+                  0.81356132030487061,
+                  1.3635109663009644,
                   1
                 ],
                 "sceneTransform" : [
